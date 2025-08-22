@@ -1,0 +1,2 @@
+This is line 1 (written in write mode).
+This is line 2 (written in write mode).

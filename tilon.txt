@@ -1,0 +1,3 @@
+Milon file.
+This is line 2 (written in write mode).
+jnatta.
