@@ -121,8 +121,7 @@ int main()
 
     Student student1(name, rollNo, marks);
     student1.display();
-
+    
     return 0;
 }
-//     cout << endl;
-//     Student student2("Bob", 102, {88.0, 92.5, 80.0});
+    
