@@ -9,7 +9,6 @@ public:
     {
         real = 0;
         imag = 0;
-        cout<<"Default constructor called." << endl; // Default constructor
     }
 
     // Constructor to initialize complex number
@@ -19,7 +18,7 @@ public:
         imag = i;
     }
     // Overload the + operator
-    Complex operator +(Complex other)
+    Complex operator+(Complex other)
     {
         Complex result;
         result.real = real + other.real; // Add real parts
@@ -39,7 +38,7 @@ int main()
 
     // Use the overloaded + operator to add two complex numbers
     Complex c3;
-    c3= c1+c2; // This will call the operator+ function
+    c3 = c1 + c2; // This will call the operator+ function
 
     c3.display(); // Display the result using the display method
 
