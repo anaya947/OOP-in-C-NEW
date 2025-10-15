@@ -2,13 +2,16 @@
 using namespace std;
 int main()
 {
-    int arr[] = {2, 37, 40, 60, 74};
+    int arr[] = {2, 37, 30, 60, 74};
+    
     int size = sizeof(arr) / sizeof(arr[0]);
+    
+    sort(arr,arr+size); // Sorting the array
     int h = size - 1;
     int l = 0;
     // int m = (h + l) / 2;
     bool found = false;
-    int s = 37;
+    int s = 77;
     while (l <= h)
     {
         int m = (h + l) / 2;
@@ -21,11 +24,11 @@ int main()
         }
         else if (arr[m] < s)
         {
-            h = m + 1;
+            l = m + 1;
         }
         else
         {
-            l = m - 1;
+            h = m - 1;
         }
     }
     if (found == false)
