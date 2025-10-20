@@ -50,16 +50,19 @@ int main()
     c2.display();
     c3.display();
     if (c1 == c2)
+    {
         cout << "c1 and c2 are equal." << endl;
-
+    }
     else
+    {
         cout << "c1 and c2 are not equal." << endl;
+    }
     if (c1 && c3)
     {
         cout << "c3 and c1 are equal." << endl;
     }
     else
     {
-        cout << "C3 and C1 are not equal !" << endl;
+        cout << "C3 and C1 are not equal " << endl;
     }
 }
